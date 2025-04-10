@@ -1,0 +1,6 @@
+base=float(input('insira salario base'))
+qnt_extra= int(input('insira quantidade de horas extras:'))
+valor_extra= float(input('insira valor extra:'))
+horas_extras= (qnt_extra*valor_extra)
+total= (base+horas_extras)
+print(f'valor total:{total}')
